@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindfulNest | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand brand-title" href="index.html">MindfulNest<span class="brand-dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto me-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="section" style="padding-top: 7rem;">
+    <div class="container">
+      <h1 class="section-title">Contact Support</h1>
+      <p class="section-subtitle">Need guidance with your mindfulness journey? Write to us.</p>
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <form id="contactForm" class="card-soft p-4">
+            <div class="mb-3"><label for="name" class="form-label">Name</label><input type="text" id="name" class="form-control" required></div>
+            <div class="mb-3"><label for="email" class="form-label">Email</label><input type="email" id="email" class="form-control" required></div>
+            <div class="mb-3"><label for="message" class="form-label">Message</label><textarea id="message" rows="4" class="form-control" required></textarea></div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="small text-secondary mt-3 mb-0" id="contactStatus"></p>
+          </form>
+        </div>
+        <div class="col-lg-5">
+          <div class="card-soft p-4 h-100">
+            <h4>Office Hours</h4>
+            <p class="text-secondary">Monday to Saturday, 9:00 AM to 6:00 PM</p>
+            <h4>Email</h4>
+            <p class="text-secondary">support@mindfulnest.example</p>
+            <h4>Community</h4>
+            <p class="text-secondary">Join weekly live breathwork circles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container">Copyright <span id="year"></span> MindfulNest</div></footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

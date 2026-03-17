@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindfulNest | Guided Sessions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand brand-title" href="index.html">MindfulNest<span class="brand-dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto me-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="meditation.html">Guided Sessions</a></li>
+          <li class="nav-item"><a class="nav-link" href="exercises.html">Exercises</a></li>
+          <li class="nav-item"><a class="nav-link" href="tracker.html">Tracker</a></li>
+        </ul>
+        <a class="btn btn-accent" href="tracker.html">Track Progress</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="section" style="padding-top: 7rem;">
+    <div class="container">
+      <h1 class="section-title">Guided Meditation Sessions</h1>
+      <p class="section-subtitle">Pick a track based on your current mood and available time. Every session includes a goal, breath cadence, and expected outcome.</p>
+
+      <div class="row g-4">
+        <div class="col-lg-4 reveal"><div class="card-soft p-4 h-100"><span class="badge-tone">5 min</span><h4 class="mt-2">Morning Reset</h4><p class="text-secondary">Center yourself before classes or meetings.</p><p class="small mb-3 text-secondary">Best for: low energy mornings</p><button class="btn btn-outline-primary btn-sm">Play Preview</button></div></div>
+        <div class="col-lg-4 reveal delay-1"><div class="card-soft p-4 h-100"><span class="badge-tone">10 min</span><h4 class="mt-2">Anxiety Release</h4><p class="text-secondary">Calm racing thoughts with paced breathing.</p><p class="small mb-3 text-secondary">Best for: overwhelm and panic spikes</p><button class="btn btn-outline-primary btn-sm">Play Preview</button></div></div>
+        <div class="col-lg-4 reveal delay-2"><div class="card-soft p-4 h-100"><span class="badge-tone">15 min</span><h4 class="mt-2">Deep Focus</h4><p class="text-secondary">Strengthen attention and reduce distractions.</p><p class="small mb-3 text-secondary">Best for: study and project sessions</p><button class="btn btn-outline-primary btn-sm">Play Preview</button></div></div>
+      </div>
+
+      <div class="card-soft p-4 mt-4 text-center reveal">
+        <h3>Live Session Timer</h3>
+        <p class="text-secondary mb-0">Use this built-in timer for your self-guided meditation. Keep your spine upright and let shoulders soften before pressing Start.</p>
+        <div class="timer-circle" id="sessionTimer">05:00</div>
+        <div class="d-flex justify-content-center gap-2 flex-wrap">
+          <button class="btn btn-primary" id="startTimer">Start</button>
+          <button class="btn btn-outline-primary" id="pauseTimer">Pause</button>
+          <button class="btn btn-accent" id="resetTimer">Reset</button>
+        </div>
+      </div>
+
+      <div class="row g-4 mt-1">
+        <div class="col-md-6 reveal">
+          <div class="card-soft p-4 h-100">
+            <h4>Breathing Pattern Guidance</h4>
+            <ul class="mb-0 text-secondary">
+              <li>Inhale softly through nose for 4 counts</li>
+              <li>Hold with relaxed jaw for 2 counts</li>
+              <li>Exhale longer for 6 counts</li>
+              <li>Repeat gently without forcing rhythm</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 reveal delay-1">
+          <div class="card-soft p-4 h-100">
+            <h4>What to expect after 2 weeks</h4>
+            <ul class="mb-0 text-secondary">
+              <li>Better emotional recovery after stress</li>
+              <li>Improved concentration span during tasks</li>
+              <li>Lower bedtime mental noise</li>
+              <li>Stronger awareness of thought patterns</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container">Copyright <span id="year"></span> MindfulNest</div></footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
