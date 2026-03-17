@@ -1,0 +1,33 @@
+Mindfulness and Meditation Project - Step-by-Step Submission Document
+
+Student Enrollment Number: REPLACE_WITH_YOUR_ENROLLMENT_NUMBER
+
+Task-1: Repository Setup
+1. Created a repository folder named ENROLLMENT_NUMBER.
+2. Created two folders: Figma and Code.
+3. Added project files to their respective folders.
+
+Task-2: Figma Prototype
+1. Planned at least 8 to 10 website screens.
+2. Designed screens in Figma as per project theme.
+3. Exported and uploaded screen files in the Figma folder.
+4. Added the Figma prototype link in Figma_Link.txt.
+
+Task-3: Website Development
+1. Developed website using HTML, CSS, JavaScript, jQuery, and Bootstrap.
+2. Implemented responsive pages for desktop and mobile.
+3. Added interactive features:
+   - Guided session timer
+   - Exercise category filter
+   - Contact form validation
+   - Progress tracking with browser local storage
+
+Task-4: Code Upload
+1. Uploaded all source files in the Code folder.
+2. Verified folder structure and links.
+3. Prepared final repository for submission.
+
+Final Submission
+1. Pushed repository to GitHub.
+2. Copied repository link.
+3. Submitted repository link in Google Form.
